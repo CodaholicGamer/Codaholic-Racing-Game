@@ -16,7 +16,7 @@ function preload(){
     restartButtonImg = loadImage("restartbutton.png");
     dashboardImg = loadImage("dashboard.png");
 }
-
+touches = [];
 function setup() {
  //created the canvas
  createCanvas(1920, 1080);
