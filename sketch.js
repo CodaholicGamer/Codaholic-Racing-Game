@@ -79,7 +79,7 @@ function draw() {
  }
  //if condition when pressed right arrow the velocity of the car increases and backgroud starts scrolling
  if (keyDown("right_arrow")) {
-     car.velocityX = 35;
+     car.velocityX = car.velocityX+1;
      console.log(car.x);
      if (car.x > 2500) {
         car.x = 10;
